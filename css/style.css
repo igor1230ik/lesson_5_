@@ -1,0 +1,256 @@
+/* ============== Файл обнулення =================== */
+@import "null.css";
+
+/* ============ Шрифти ========================== */
+
+/* ============= Passions Conflict ================ */
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+/* ============ Шрифт Lasserit ================== */
+@font-face {
+    font-family: 'Circular';
+    src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+        url('../fonts/CircularStd-Book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../fonts/CircularStd-BoldItalic.woff2') format('woff2'),
+        url('../fonts/CircularStd-BoldItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+        url('../fonts/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('../fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../fonts/CircularStd-Black.woff2') format('woff2'),
+        url('../fonts/CircularStd-Black.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ============================================== */
+
+.body {
+    font-family: 'Circular', sans-serif;
+    color: #313131;
+    font-size: 25px;
+    line-height: 1.28;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+[class*=-container] {
+    padding: 0 15px;
+}
+
+.header-title {
+    font-weight: 700;
+    letter-spacing: -0.06em;
+    margin: 50px 0 50px 20px;
+    text-align: end;
+}
+
+.health-title h2 {
+    word-spacing: 10px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 1.26;
+}
+
+.health-subtitle {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.health-info {
+    text-indent: 15px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    margin-bottom: 50px;
+    font-family: 'Passions Conflict', cursive;
+}
+
+
+.partners-title {
+    font-size: 65px;
+    line-height: 1.26;
+    padding-left: 100px;
+    margin-bottom: 70px;
+}
+
+.partners-info {
+    text-align: center;
+    text-decoration: overline;
+    margin-bottom: 30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+
+.about-us-title {
+    font-size: 65px;
+    line-height: 1.26;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.about-us-subtitle {
+    color: #5F5F5F;
+    max-width: 500px;
+    background-color: aquamarine;
+    text-shadow: 2px 3px 5px #df8d11;
+    letter-spacing: 20px;
+    margin-bottom: 25px;
+}
+
+.about-us-image {
+    margin-bottom: 20px;
+}
+
+.about-us-info {
+    color: #5F5F5F;
+    text-decoration: underline;
+}
+
+.about-us-info p {
+    margin-bottom: 10px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.about-what {
+    background: #FFE500;
+}
+
+.about-what-title {
+    font-size: 65px;
+    line-height: 1.26;
+    margin-bottom: 60px;
+}
+
+.about-what-info {
+    color: #5F5F5F;
+    padding-left: 50%;
+    margin-bottom: 100px;
+}
+
+.about-what-image {
+    margin-bottom: 40px;
+}
+
+
+.our-title {
+    font-size: 65px;
+    line-height: 1.26;
+    margin-bottom: 10px;
+}
+
+.our-content-list-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    margin-bottom: 15px;
+    text-shadow: 1px 3px 5px #4be617;
+}
+
+.our-content-list-info {
+    font-size: 18px;
+    line-height: 1.28;
+    color: #5F5F5F;
+    background-color: #EEF7FB;
+    margin-bottom: 60px;
+    padding-left: 50px;
+}
+
+.customes-title {
+    font-size: 65px;
+    line-height: 1.26;
+    text-align: center;
+}
+
+.customes-subtitle {
+    text-align: center;
+    color: #5F5F5F;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.customes-body-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 130%;
+    margin-bottom: 10px;
+}
+
+.customes-body-info {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #5F5F5F;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.customes-body-image {
+    margin-bottom: 10px;
+}
+
+.customes-body-rating img {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.customes-body-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.customes-body-job {
+    font-size: 18px;
+    line-height: 1.28;
+    color: #B8B8B8;
+    text-transform: lowercase;
+    margin-bottom: 50px;
+}
+
+.footer-container {
+    padding: 0;
+}
+
+.site-signature {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #313131;
+    color: #fff;
+    text-shadow: 0px 2px 6px #fff, 0px -2px 6px #fff;
+}
